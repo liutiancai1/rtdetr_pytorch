@@ -1,0 +1,8 @@
+* text=auto eol=lf
+
+*.pth binary
+*.pt binary
+*.onnx binary
+*.engine binary
+*.safetensors binary
+

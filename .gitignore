@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+
+# Environments and local IDE state
+.env
+.venv/
+env/
+envs/
+.vscode/
+.idea/
+
+# Datasets and archives
+/data/
+datasets/
+NEU-DET/
+NEU-DET-COCO*/
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Model weights and exported artifacts
+*.pth
+*.pt
+*.onnx
+*.engine
+*.safetensors
+
+# Logs and generated training outputs
+*.log
+output/**
+!output/
+!output/experiments/
+!output/experiments/rtdetr_r18_neudet_baseline_300e/
+!output/experiments/rtdetr_r18_neudet_baseline_300e/*.csv
+!output/experiments/rtdetr_r18_neudet_baseline_300e/*.json
+!output/experiments/rtdetr_r18_neudet_baseline_300e/*.txt
+!output/experiments/rtdetr_r18_neudet_baseline_300e/seed_*/
+!output/experiments/rtdetr_r18_neudet_baseline_300e/seed_*/configs/
+!output/experiments/rtdetr_r18_neudet_baseline_300e/seed_*/configs/*.yml
+!output/experiments/rtdetr_r18_neudet_baseline_300e/seed_*/results.csv
+!output/experiments/rtdetr_r18_neudet_baseline_300e/seed_*/results.json
+!output/experiments/rtdetr_r18_neudet_baseline_300e/seed_*/per_class_ap.csv
+!output/experiments/rtdetr_r18_neudet_baseline_300e/seed_*/speed.json
+

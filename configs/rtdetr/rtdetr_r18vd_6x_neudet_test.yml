@@ -1,0 +1,13 @@
+__include__: [
+  './rtdetr_r18vd_6x_neudet.yml',
+]
+
+
+output_dir: ./output/rtdetr_r18vd_6x_neudet_test
+
+val_dataloader:
+  dataset:
+    img_folder: ../NEU-DET-COCO-721/test2017/
+    ann_file: ../NEU-DET-COCO-721/annotations/instances_test2017.json
+  batch_size: 8
+  num_workers: 4
